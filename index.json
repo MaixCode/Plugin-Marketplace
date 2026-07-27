@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-27T00:00:00Z",
+  "plugins": [
+    {
+      "id": "com.example.hello-world",
+      "name": "Hello World",
+      "version": "1.0.0",
+      "description": "A simple hello world plugin",
+      "author": {
+        "name": "Example Author",
+        "url": "https://github.com/example"
+      },
+      "icon": "icon.png",
+      "apiVersion": "1.0",
+      "permissions": ["ui.panel", "ui.command"],
+      "contributes": {
+        "commands": [
+          { "id": "hello-world.say", "title": "Say Hello" }
+        ]
+      },
+      "source": { "type": "path", "path": "plugins/hello-world" },
+      "updatedAt": "2026-06-01T00:00:00Z"
+    }
+  ]
+}
