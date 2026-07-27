@@ -1,0 +1,14 @@
+{
+  "id": "com.example.hello-world",
+  "name": "Hello World",
+  "version": "0.1.0",
+  "description": "A simple hello world plugin",
+  "main": "index.js",
+  "apiVersion": "1.0",
+  "permissions": ["ui.panel", "ui.command"],
+  "contributes": {
+    "commands": [
+          { "id": "sample.hello-world.say", "title": "Say Hello" }
+    ]
+  }
+}

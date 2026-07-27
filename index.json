@@ -16,7 +16,7 @@
       "permissions": ["ui.panel", "ui.command"],
       "contributes": {
         "commands": [
-          { "id": "hello-world.say", "title": "Say Hello" }
+          { "id": "sample.hello-world.say", "title": "Say Hello" }
         ]
       },
       "source": { "type": "path", "path": "plugins/hello-world" },
